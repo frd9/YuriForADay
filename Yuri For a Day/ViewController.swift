@@ -10,7 +10,7 @@ class ViewController: UIViewController {
     let yuriImages = ["yuri4","yuri5",  "yuri3", "yuri2", "yuri6","yuri1"]
     let quotesImages = [#imageLiteral(resourceName: "12"), #imageLiteral(resourceName: "7"), #imageLiteral(resourceName: "8"), #imageLiteral(resourceName: "11"), #imageLiteral(resourceName: "9"), #imageLiteral(resourceName: "10")]
    
-    // noo lol, idk what is the view
+    // test
     
     @IBAction func startPressed(_ sender: UIButton) {
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateUI), userInfo: nil, repeats: true)
