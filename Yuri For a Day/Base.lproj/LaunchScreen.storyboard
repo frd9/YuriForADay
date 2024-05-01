@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to the cuteness world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C59-4v-dyA">
+                                <rect key="frame" x="53" y="587" width="325" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="YURI TODAY" translatesAutoresizingMaskIntoConstraints="NO" id="hnM-Sv-qxt">
+                                <rect key="frame" x="85" y="198" width="260" height="302"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.95686274770000002" green="0.79215681550000006" blue="0.4352940917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="C59-4v-dyA" firstAttribute="top" secondItem="hnM-Sv-qxt" secondAttribute="bottom" constant="87" id="1x1-NV-7c5"/>
+                            <constraint firstItem="C59-4v-dyA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EWM-Er-151"/>
+                            <constraint firstItem="C59-4v-dyA" firstAttribute="centerX" secondItem="hnM-Sv-qxt" secondAttribute="centerX" id="c1U-GH-YuQ"/>
+                            <constraint firstItem="hnM-Sv-qxt" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fbX-i6-VDH"/>
+                            <constraint firstItem="hnM-Sv-qxt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nbQ-Jj-zd7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.627906976744185" y="374.03433476394855"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="YURI TODAY" width="256" height="256"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
